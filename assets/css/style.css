@@ -1,0 +1,485 @@
+/*------------------------------------------------------------------
+	[Master Stylesheet]
+	
+	Project:    Perfecto
+	Version:    1.0
+	Last change:    24/03/17 [fixed Float bug, vf]
+	Author Name: Author Name
+	Primary use:    Project Type
+	-------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+	[Table of contents]
+	
+	1. Body
+	2.
+	-------------------------------------------------------------------*/
+
+/*
+	==========================================
+    Reset Css
+	==========================================
+	*/
+	ul {
+    /*margin: 0;
+    padding: 0;*/
+}
+ul li {
+	list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	margin: 0;
+}
+p{
+	color:#666;
+}
+/*Html area*/
+html{
+	scroll-behavior: smooth;
+}
+/*Body area*/
+body{
+	background:url('../img/price_bg.jpg');
+	background-position:center;
+	background-size:cover;
+	height:auto;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+/*Start hero top*/
+.ikn{
+	text-align: center;
+	text-decoration: none;
+	color:#f8f9fa;
+    margin-left: 9px;
+}
+.ikn:hover{
+	color:#009688;
+}
+/* hero-area  */
+.hero-area{
+	background:url('../img/hero_bg.jpg');
+	background-position:center;
+	background-size:cover;
+	height:auto;
+	width: 100%;
+	color:#666;
+}
+/*Custom color*/
+.bg-gr{
+	background-color: #009688 !important;
+}
+.text-gr{
+	color: #009688 !important;
+}
+.text-gray{
+	color: #565656;
+}
+.text-gray:hover{
+	color: #009688;
+}
+/*Start Nav css*/
+.nav-item{
+	padding: 10px;
+}
+.nav-item:hover .nav-link{	
+	color:#009688 !important;
+}
+.active-menu{
+	color:#009688 !important;
+}
+.search-icon{
+	margin-left: 6rem !important;
+}
+
+/*Hero area css*/
+.hero-area-content{
+	padding:180px 0px 250px; 
+}
+.hero-area-content h4{
+	font-size: 25px;
+	color: white;
+	font-weight: bold;
+}
+.hero-area-content h1{
+	color:white;
+	font-weight: bolder;
+	font-size: 70px;
+	padding-bottom: 40px;
+}
+.hero-area-content p{
+	font-size: 13px;
+	color: white;
+	padding-bottom: 60px;
+}
+.hero-area-content button{
+	border-radius: 0px;
+	padding: 10px 30px;
+	margin-bottom: 25px;
+}
+
+/*Start Design content css*/
+.design-area{
+	background:url('../img/design_bg.jpg');
+	background-position:center;
+	background-size:cover;
+	height:auto;
+	width: 100%;
+}
+.design-heading h2{
+	padding: 150px 0px 50px;
+	font-weight: bolder
+}
+.design-heading h2 span{
+	color: #009688 ;
+}
+.design-heading p{
+	padding-bottom:400px;
+	color:#808080;
+	font-size: 17px;
+}
+
+/*Start Design icon area*/
+.design-icon-area{
+	background: #fafafa;
+}
+.design-icon-row{
+	padding-bottom: 100px;
+}
+.design-icon{
+	padding-top: 100px;
+}
+.design-icon i{
+	font-size: 50px;
+	color: #444444;
+}
+.design-icon i:hover{
+	color: #009688!important;
+}
+.active-icon i{
+	color: #009688!important;
+}
+.design-icon h3{
+	font-weight: bold;
+	font-size: 22px;
+	padding: 50px 0px 40px;
+	color: #444444;
+}
+.design-icon p{
+	color:#999;
+	font-size: 15px;
+}
+
+/*Start Project css*/
+.project-area{
+	background: white;
+}
+.project-head h3{
+	font-weight: bold;
+	padding-top: 125px;
+}
+.project-head hr{
+	background: #009688;
+	height: 3px;
+	width: 4%;
+}
+.buttn{
+	margin: 30px 0px;
+}
+.buttn button{
+	border-radius: 0px;
+}
+.buttn button:hover{
+	background:  #009688;
+	transition:0.1s; 
+}
+.buttn button i{
+	color:white !important;
+}
+/*Start Project Image*/
+.project-img-area{
+	background-color: white;
+	padding-bottom: 120px;
+}
+.p-img1{
+	background-image: url('../img/project_img1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	widows: 100%;
+	height: auto;
+}
+.p-img2{
+	background-image: url('../img/project_img2.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.p-img3{
+	background-image: url('../img/project_img3.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.p-img4{
+	background-image: url('../img/project_img4.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.p-img5{
+	background-image: url('../img/project_img5.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.p-img1 p{
+	padding:33% 0%;
+}
+
+.pro-img i{
+	margin:32% 0%;
+	color: transparent;
+}
+.pro-img:hover{
+	background-color:#1f9e93d1 !important;
+	transition: 0.3s;
+}
+.pro-img:hover i{
+	color:white;
+}
+.br{
+	margin:3% ;
+}
+/*Start tab and expart area*/
+.tab-and-expart-area{
+	background: #efefef;;
+}
+.tab{
+	margin-bottom: 150px;
+}
+.tab-head h3{
+	padding-top: 105px;
+	font-weight: bold;
+	padding-bottom: 75px;
+}
+.accordion{
+	border-top: 2px solid#6c6c6c4a;
+	padding: 20px 30px 0px;
+	background:white; 
+}
+/*Start Creative area css*/
+.creative-area{
+	background:white;
+}
+.creative-text h3{
+	padding:190px 0px 35px;
+	font-weight: bold;
+}
+.creative-img{
+	margin-top: 135px;
+}
+
+/*Start Services Area css*/
+.services-icon-area{
+	background-color: #ddd;
+}
+.service-row{
+	padding:180px 0px 160px;
+}
+.service-icon i{
+	font-size: 50px;
+	color: #444444;
+}
+.service-icon i:hover{
+	color: #009688!important;
+}
+.service-icon i{
+	color: #009688!important;
+}
+.service-icon h3{
+	font-weight: bold;
+	font-size: 22px;
+	padding: 30px 0px 25px;
+	color: #444444;
+}
+.service-icon p{
+	color:#999;
+	font-size: 15px;
+}
+/*Start Theme area css*/
+.theme-area{
+	background: #292929;
+}
+.theme-row{
+	padding-top: 90px;
+}
+.theme-text h2{
+	font-weight: bold;
+	margin-bottom:30px;
+	font-size:29px;
+	color: white;
+}
+.theme-text p{
+	margin-bottom: 90px;
+	color:#ddd;
+}
+.theme-button{
+	margin-top: 20%;
+	margin-bottom: 20%;
+}
+.theme-button button{
+	padding:15px 40px;
+	border-radius: 0px; 
+}
+
+
+/*Start Our team*/
+.team-area{
+	background-color: white;
+}
+.team-head h3{
+	font-weight: bold;
+	padding-top: 100px;
+}
+.team-head hr{
+	background: #009688;
+	height: 3px;
+	width: 4%;
+	margin-bottom: 70px;
+}
+.team-img{
+	padding-bottom: 100px;
+}
+
+/*Start Price Area css*/
+.price-head{
+	padding-top: 90px;
+	padding-bottom: 100px;
+}
+.card{
+	border:none;
+	border-radius: 0px;
+}
+.price-card:hover{
+	margin:-20px -5px 0px;
+	transition: 0.2s;  
+}
+.card:hover .card-header h1{
+	color:#009688;
+	transition: 0.2s;  
+}
+.card:hover .card-footer{
+	background-color: #009688;
+	transition: 0.2s;  
+}
+.card-header{
+	background-color: #313131;
+}
+.card-header h6{
+	color:white;
+	font-weight: bold;
+	padding: 15px 0px 40px;
+}
+.card-header h1{
+	color: white;
+	font-weight: bold;
+	font-size: 70px;
+}
+.pre-head h1{
+	color: #009688;
+	font-weight: bold;
+	font-size: 70px;
+}
+.pre-foot{
+	background-color: #009688 !important;
+}
+.card-header h1 sup{
+	font-size: 40px;
+	color:white !important;
+}
+.card-header h1 span{
+	font-weight: normal;
+	font-size: 18px;
+	color:white !important;
+}
+.card-header p{
+	padding-top: 10px;
+	color:#bcbcbc;
+}
+.card-footer{
+	background-color: #313131;
+	color: white;
+}
+.price-row{
+	padding-bottom: 110px;
+}
+/*Start Latest Post*/
+.latest-post-area{
+	background-color: white;
+}
+.post-row{
+	padding-bottom: 140px;
+}
+.post-head h3{
+	margin-top: 105px;
+	margin-bottom: 85px;
+	font-weight: bold;
+}
+.bottom-left {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding:5px;
+    background-color: #21a095c9;
+}
+.bottom-left p{
+	color: white;
+}
+.post-text h4{
+	margin:35px 0px;
+}
+/*Start contact area*/
+.contact-area{
+	padding-top: 110px;
+	padding-bottom:130px; 
+}
+.form-control{
+	background-color: #ebebeb;
+}
+/*Start Map area*/
+.map-area{
+	background-image: url('../img/map_bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+/*Start Footer css*/
+.footer-area{
+	background-color: #192330;
+	padding-top: 100px;
+}
+.foot-icon{
+	margin-top: 85px;
+	margin-bottom: 140px;
+}
+.icn{
+	padding: 15px;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+	color:#ddd;
+	background-color:#00000038;
+	border: 1px solid #ddd;
+    border-radius: 50px;
+    margin: 5px;
+}
+.icn:hover{
+	opacity: 0.7;
+	background-color: #009688;
+	color: white;
+}
+.copy-row{
+	padding-bottom: 45px;
+}
