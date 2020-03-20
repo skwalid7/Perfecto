@@ -5,7 +5,157 @@
 
 /* Tablet Layout: 768px. */
 @media only screen and (min-width:768px) and (max-width:991px) {
-	
+	.theme-button button {
+    padding: 10px 30px;
+    border-radius: 0px;
+    margin-top: 50px;
+    margin-right: 0px;
+}
+.col-md-2.offset-md-2 {
+    margin-left: 6%;
+}
+.footer-area {
+    padding-top: 40px;
+}
+.foot-icon {
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+.icn {
+    padding: 10px;
+    font-size: 15px;
+    margin: 3px;
+}
+.nav-item {
+    padding: 5px;
+}
+.contact-area {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+h3.text-center.font-weight-bold {
+    padding-bottom: 20px;
+}
+.post-row {
+    padding-bottom: 50px;
+}
+.post-head h3 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.price-head {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.card-header h6 {
+    padding: 0px 0px 5px;
+    font-size: 13px;
+}
+.card-header h1 {
+    font-size: 40px;
+    padding-top: 5px;
+}
+.card-header h1 sup {
+    font-size: 24px;
+}
+.card-header h1 span {
+    font-size: 12px;
+}
+.card-header p {
+    padding-top: 8px;
+    font-size: 12px;
+}
+p.card-text {
+    font-size: 12px;
+}
+.service-row {
+    padding: 60px 0px 50px;
+}
+.service-icon h3 {
+    font-size: 17px;
+    padding: 10px 0px 12px;
+}
+.service-icon p {
+    text-align: justify;
+}
+.creative-text h3 {
+    padding: 50px 0px 10px;
+    font-size: 24px;
+}
+.creative-text p {
+    font-size: 15px;
+}
+button.btn.btn-outline-dark {
+    margin-bottom: 40px !important;
+}
+.creative-img {
+    margin-top: 100px;
+}
+.tab-head h3 {
+    padding-top: 50px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.tab {
+    margin-bottom: 30px;
+}
+.bar-body.pl-5 {
+    padding-left: 2rem !important;
+}
+.bar-body br {
+    display: none;
+}
+.project-head h3 {
+    padding-top: 40px;
+}
+.project-img-area {
+    padding: 0px 0px 50px;
+}
+.design-icon-row {
+    padding-bottom: 30px;
+}
+.design-icon {
+    padding-top: 50px;
+}
+.design-icon i {
+    font-size: 35px;
+}
+.design-icon h3 {
+    font-size: 14px;
+    padding: 15px 0px 10px;
+}
+.design-icon p {
+    font-size: 12px;
+    text-align: justify;
+    font-weight: 500;
+}
+.design-heading h2 {
+    padding: 0px 0px 20px;
+    font-size: 19px;
+}
+.design-area {
+    padding-top: 50px;
+}
+.design-heading p {
+    padding-bottom: 12px;
+    font-size: 13px;
+}
+.col-md-1.col-sm-6.offset-md-1 {
+    padding-top: 10%;
+}
+p.pl-4.text-light {
+    font-size: 12px;
+}
+.col-md-4.top-area i {
+    font-size: 12px;
+}
+.col-md-4.top-area {
+    max-width: 40%;
+}
+
+
+
+
 }
 /* wide Mobile Layout;488px  */
 @media only screen and (min-width:480px) and (max-width:767px) {
@@ -13,5 +163,221 @@
 }
 /* Mobile Layout: 320px;. */
 @media only screen and (max-width:767px) {
-	
+	.col-md-4.top-area p {
+    font-size: 12px;
+}
+.col-md-4.top-area i {
+    font-size: 14px;
+}
+.col-5.top-area-ikn.text-right a {
+    font-size: 15px;
+}
+a.navbar-brand {
+    width: 30%;
+}
+.navbar-brand {
+    padding-top:0rem;
+    padding-bottom: 0rem;
+    font-size: 0rem;
+}
+
+.navbar-toggler {
+    padding:3px 6px;
+    font-size: 12px;
+    line-height: 1;
+    background-color: #a8a8a817;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+	.hero-area-content h1 {
+    font-size: 45px;
+    padding-bottom: 15px;
+}
+.hero-area-content {
+    padding: 80px 0px 70px;
+}
+.hero-area-content h4 {
+    font-size: 20px;
+}
+.hero-area-content p {
+    padding-bottom: 10px;
+}
+.hero-area-content button {
+    padding: 5px 15px;
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+.col-md-1.col-sm-6.offset-md-1 img {
+    display: none;
+}
+.design-area {
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+.design-heading h2 {
+    padding: 0px 0px 20px;
+    font-size: 23px;
+}
+.design-heading p {
+    padding-bottom: 20px;
+    color: #202020;
+    font-size: 14px;
+}
+.design-icon {
+    padding-top: 15px;
+}
+.design-icon h3 {
+    font-size: 17px;
+    padding: 10px 0px 6px;
+}
+.design-icon p {
+    color: #999;
+    font-size: 13px;
+}
+.active-icon {
+    padding-top: 30px;
+}
+.design-icon-row {
+    padding-bottom: 30px;
+}
+.project-head h3 {
+    padding-top: 40px;
+    font-size: 25px;
+}
+.mix-but button {
+    font-size: 12px;
+    padding: 4px 6px;
+}
+.mix-but button i {
+    font-size: 13px !important;
+}
+.project-img-area {
+    padding: 20px 0px 10px;
+}
+.tab-head h3 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.accordion {
+    border-top: 1px solid#6c6c6c4a;
+    padding: 15px 10px 0px;
+}
+.tab {
+    margin-bottom: 0px;
+}
+.bar-body {
+    padding: 0px !important;
+}
+.bar-body p {
+    font-weight: bold;
+}
+.creative-text h3 {
+    padding: 30px 0px 10px;
+    font-weight: bold;
+}
+h3{
+    margin: 0;
+    font-size: 20px;
+}
+.creative-img {
+    margin-top: 0px;
+}
+.creative-text button {
+    margin-bottom: 50px !important;
+}
+.service-row {
+    padding: 20px 0px 50px;
+}
+.theme-row {
+    padding-top: 40px;
+}
+.theme-text h2 {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.theme-button {
+    margin-top: 0%;
+    margin-bottom: 15%;
+    text-align: center;
+}
+.theme-text p {
+    margin-bottom: 40px;
+}
+.theme-button button {
+    padding: 10px 40px;
+}
+.team-head h3 {
+    padding-top: 50px;
+}
+.team-img {
+    padding-bottom: 20px;
+}
+.team-head hr {
+    height: 2px;
+    width: 15%;
+    margin-bottom: 16px;
+}
+.price-head {
+    padding-top: 35px;
+    padding-bottom: 0px;
+}
+.card-header h6 {
+    padding: 5px 0px 5px;
+}
+.card-header p {
+    padding-top: 0px;
+}
+.card-body hr {
+    margin: 0px;
+}
+p.card-text {
+    padding-top: 10px;
+    font-size: 15px;
+}
+.col-md-4.mt-5 {
+    margin-bottom: 50px;
+}
+.price-row {
+    padding-bottom: 0px;
+}
+.post-head h3 {
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+.post-row {
+    padding-bottom: 30px;
+}
+.contact-area {
+    padding-top: 30px;
+    padding-bottom: 45px;
+}
+h3.text-center.font-weight-bold {
+    padding-bottom: 20px !important;
+}
+.col-md-12.p-5.text-center h2 {
+    font-size: 26px;
+}
+.footer-area {
+    padding-top: 30px;
+}
+.foot-icon {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.icn {
+    padding: 7px;
+    font-size: 17px;
+    margin: 2px;
+}
+.nav-item {
+    padding: 0px 17px;
+}
+.col-md-6.text-right {
+    margin-top: 20px;
+}
+#scrollUp {
+    bottom: 5px;
+    right: 5px;
+}
+
 }	

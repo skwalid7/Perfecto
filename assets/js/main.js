@@ -28,6 +28,9 @@ $(document).ready(function($){
 
 
 
+// Start mixitup
+var config = document.querySelector('.projectimg');
+var mixer = mixitup(config);
 
 
 
